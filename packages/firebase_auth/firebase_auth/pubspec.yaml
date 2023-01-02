@@ -18,7 +18,7 @@ dependencies:
   firebase_auth_web:
     git:
         url: https://github.com/blablaconnectcodemagic/flutterfire/
-        path: packages/firebase_auth_web/firebase_auth_web
+        path: packages/firebase_auth/firebase_auth_web
   firebase_core:
     git:
         url: https://github.com/blablaconnectcodemagic/flutterfire/
