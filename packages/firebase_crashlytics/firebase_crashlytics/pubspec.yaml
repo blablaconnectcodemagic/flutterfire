@@ -14,9 +14,18 @@ environment:
   flutter: ">=1.12.13+hotfix.5"
 
 dependencies:
-  firebase_core: ^2.4.1
-  firebase_core_platform_interface: ^4.5.2
-  firebase_crashlytics_platform_interface: ^3.3.10
+  firebase_core:
+    git:
+      url: https://github.com/blablaconnectcodemagic/flutterfire/
+      path: packages/firebase_core/firebase_core
+  firebase_core_platform_interface:
+    git:
+      url: https://github.com/blablaconnectcodemagic/flutterfire/
+      path: packages/firebase_core/firebase_core_platform_interface
+  firebase_crashlytics_platform_interface:
+    git:
+      url: https://github.com/blablaconnectcodemagic/flutterfire/
+      path: packages/firebase_crashlytics/firebase_crashlytics_platform_interface
   flutter:
     sdk: flutter
   stack_trace: ^1.10.0
